@@ -10,6 +10,6 @@
 <hr />
 
 <hr />
-<h3>Tecnologias usada </h3>
+<h3>Tecnologia usada </h3>
 ✔ React Native; <br>
 
