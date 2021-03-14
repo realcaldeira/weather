@@ -1,5 +1,5 @@
 <h1><strong>Weather Forecast</h1>
-<h3>Semana Sujeito Programador</h3>
+
 
 <hr/>
 
