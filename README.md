@@ -3,7 +3,7 @@
 
 <hr/>
 
-<img src="./readme/imagem.jpg" />
+<img src="./readme/imagem.JPG" />
 
 <br>
 <br>
