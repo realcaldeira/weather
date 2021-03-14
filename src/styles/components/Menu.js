@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.TouchableOpacity`
     position: absolute;
-    zIndex:9px;
+    z-index:9;
     width: 70px;
     height: 70px;
     background-color: #FFF;
@@ -13,9 +13,9 @@ export const Container = styled.TouchableOpacity`
     border-top-right-radius:30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius:30px;
-    elevation:2px
-    shadowColor: #000;
-    shadow-opacity: 0.2px;
+    elevation:2;
+    shadow-color: #000;
+    shadow-opacity: 0.2;
     shadow-offset:{
         width:1px;
         height: 3px;

@@ -21,6 +21,6 @@ export const Max = styled.Text`
     font-weight: bold;
 `;
 
-export const Temp = styled.Text`
+export const Temp = styled.View`
     align-items:center;
 `;
