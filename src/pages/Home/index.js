@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { SafeAreaView, StyleSheet, FlatList,View, Text } from 'react-native';
+import { SafeAreaView, StyleSheet, FlatList,View, Text, ActivityIndicator } from 'react-native';
 import * as Location from 'expo-location';
 
 import Menu from '../../components/Menu';
@@ -61,7 +61,7 @@ export default function Home(){
   if(loading){
     return(
       <View style={styles.container}>
-        <Text>Loading</Text>
+        <ActivityIndicator size="large" color="#FFB300" />
       </View>
     )
   }
