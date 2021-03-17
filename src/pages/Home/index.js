@@ -17,6 +17,8 @@ export default function Home(){
   const [icon, setIcon] = useState({ name: 'cloud', color: '#FFF'});
   const [background, setBackground] = useState(['#1ed6ff','#97c1ff']);
 
+
+  
   useEffect(()=>{
     
     (async()=>{
@@ -30,7 +32,7 @@ export default function Home(){
 
       let location = await Location.getCurrentPositionAsync({});
       
-      //weather?key=79426e79&lat=-23.682&lon=-46.875
+      
       const response = await api.get(`/weather?key=${key}&lat=${location.coords.latitude}&lon=${location.coords.longitude}`);
 
       setWeather(response.data);
@@ -59,7 +61,7 @@ export default function Home(){
   if(loading){
     return(
       <View style={styles.container}>
-        <Text style={{fontSize: 17, fontStyle: 'italic'}}>Carregando</Text>
+        <Text>Loading</Text>
       </View>
     )
   }

@@ -17,7 +17,7 @@ A idéia do aplicativo é realizar consulta da previsão do tempo através da ge
 <h3><strong>Porque</strong></h3>
 <hr/>
 O app está sendo construindo para fins de estudos com <i>React Native</i>.
-Você pode entrar em contato pelo <a href="https://www.linkedin.com/in/lucas-caldeira/"><strong>Linkedin</strong></a>.
+Você pode entrar em contato comigo pelo <a href="https://www.linkedin.com/in/lucas-caldeira/"><strong>Linkedin</strong></a>.
 
 
 ou pelo email: mrrealcaldeira@gmail.com .

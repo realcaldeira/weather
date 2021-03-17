@@ -4,11 +4,15 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import Home from './pages/Home';
 import Search from './pages/Search';
 
+import CustomDrawer from './components/CustomDrawer';
+
 const Drawer = createDrawerNavigator();
 
 function Routes(){
     return(
-        <Drawer.Navigator>
+        <Drawer.Navigator 
+            drawerContent={CustomDrawer}
+        >
             <Drawer.Screen 
                 name="Home"
                 component={Home}
