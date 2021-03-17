@@ -16,11 +16,12 @@ export const Date = styled.Text`
     font-size: 14px;
 `;
 
+export const Temp = styled.View`
+    align-items:center;
+`;
+
 export const Max = styled.Text`
     font-size: 18px;
     font-weight: bold;
 `;
 
-export const Temp = styled.View`
-    align-items:center;
-`;
